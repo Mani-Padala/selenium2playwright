@@ -1,4 +1,4 @@
-# java2playwright — AI-Powered Test Automation Migration Agent
+# selenium2playwright — AI-Powered Test Automation Migration Agent
 
 > Converts Java Selenium + Cucumber projects into Python Playwright + pytest-bdd automatically using LLM-powered code conversion.
 
@@ -79,7 +79,7 @@ Java source files are preprocessed before sending to the LLM — comments, blank
 ## Project Structure
 
 ```
-java2playwright/
+selenium2playwright/
 ├── agent.py          # CLI entrypoint — orchestrates the pipeline
 ├── scanner.py        # Walks Java project, maps Java packages to Python folders
 ├── learner.py        # Extracts patterns from Python reference project via LLM
@@ -104,8 +104,8 @@ java2playwright/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/java2playwright
-cd java2playwright
+git clone https://github.com/your-username/selenium2playwright
+cd selenium2playwright
 
 # 2. Create virtual environment
 python -m venv .venv

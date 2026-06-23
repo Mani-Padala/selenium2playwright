@@ -146,7 +146,7 @@ def main() -> None:
     out_path = OUTPUT_BASE / Path(args.java).resolve().name
 
     print("\n" + "=" * 55)
-    print("  java2playwright - Java to Python Playwright Agent")
+    print("  selenium2playwright - Java to Python Playwright Agent")
     print("=" * 55)
     print(f"  Java project : {args.java}")
     print(f"  LLM provider : {args.provider}")
