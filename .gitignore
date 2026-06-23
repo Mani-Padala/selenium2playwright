@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Environment variables — never commit API keys
+.env
+
+# Converted output projects — too large, generated on demand
+java2python/
+
+# Checkpoint files — runtime state, not source
+.conversion_checkpoint.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# pytest cache
+.pytest_cache/
+.mypy_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java build artifacts (if Java input projects are cloned inside this repo)
+target/
+build/
+*.class
+*.jar
+
+# Logs
+*.log
